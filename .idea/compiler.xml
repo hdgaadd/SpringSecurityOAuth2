@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="util" />
+        <module name="common" />
+        <module name="template" />
+        <module name="authorization-server" />
+        <module name="discovery" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-server" target="1.8" />
+      <module name="common" target="8" />
+      <module name="cutedoudou" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="SpringSecurityOAuth2" target="1.8" />
+      <module name="template" target="8" />
+      <module name="test" target="8" />
+      <module name="util" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="cutedoudou" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="template" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="util" options="-parameters" />
+    </option>
+  </component>
+</project>

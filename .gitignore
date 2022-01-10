@@ -1,0 +1,4 @@
+# Project exclude paths
+/authorization-server/target/
+/discovery/target/
+/template/target/
