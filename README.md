@@ -26,5 +26,9 @@
 
 - 用户登录后，授权服务器返回的数据是暴露在浏览器的，若直接返回令牌会把**令牌暴露**在浏览器
 
+## bugs
 
+- 资源服务器需要POST提交方式，写成了@GetMapping
+
+  @RestqustMapping支持GET和POST提交方式
 
